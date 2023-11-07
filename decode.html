@@ -2,36 +2,32 @@
 <html>
 <head>
   <title>Decode - Steganografi Web</title>
-  <!-- Tambahkan referensi Bootstrap di sini -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
   <style>
-    /* Merubah latar belakang halaman menjadi warna #FFFCFC dengan transparansi 20% */
     body {
-      background-color: rgba(255, 252, 252, 0.2); /* Warna dengan transparansi */
-      color: #000; /* Warna teks sesuai preferensi Anda */
+      background-color: rgba(255, 252, 252, 0.2); 
+      color: #000;
     }
 
-    /* CSS untuk garis putus-putus pada input file */
     .custom-file-input {
-      background-color: #D9D9D9; /* Warna latar belakang */
-      border: 2px dashed #000; /* Garis putus-putus berwarna hitam */
-      border-radius: 5px; /* Sudut elemen dibulatkan */
-      padding: 10px; /* Padding agar ada ruang di dalam elemen */
-      cursor: pointer; /* Ubah kursor saat di atas elemen */
+      background-color: #D9D9D9; 
+      border: 2px dashed #000; 
+      border-radius: 5px; 
+      padding: 10px; 
+      cursor: pointer; 
     }
 
     .custom-file-input:hover {
-      border-color: #007bff; /* Ubah warna garis tepi saat elemen dihover */
-    }
+      border-color: #007bff; 
   </style>
   <script>
     function decode() {
       // Implementasikan decoding BPCS di sini
-      // Anda perlu mengakses gambar dari input file dan mengekstrak pesan rahasia dari gambar
-      var decodedResult = 'Hasil decoding BPCS berhasil dilakukan.'; // Gantilah dengan hasil decode yang sesungguhnya
+     
+      var decodedResult = 'Hasil decoding BPCS berhasil dilakukan.'; 
       document.getElementById('decodeResult').innerHTML = decodedResult;
     }
   </script>
